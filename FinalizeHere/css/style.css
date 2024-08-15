@@ -1,0 +1,240 @@
+#colorPicker {
+    display: none;
+} 
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: aliceblue;
+    background-color: #26262c;
+}
+#homePage{
+    background-image: url(/Assets/BackgroundDark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    font-weight: lighter;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's width */
+    background-color: #1b1b1d;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 3% 5px 2%; /* Adjusted padding */
+    z-index: 60;
+}
+.NavTitle{
+    margin-right: 15px;
+    line-height: 18px;
+}
+.tagline{
+    line-height: 20px;
+}
+
+#leftBanner {
+    display: flex;
+    align-items: end;
+}
+#rightEndOfBanner {
+    display: flex;
+    align-items: center;
+}
+.underBanner {
+    display: flex;
+    background-color: #423692;
+}
+button{
+    background-color: #213688;
+    max-width: 150px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 12px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover {background-color: #4661b0}
+
+button:active {
+  background-color: #22305f;
+  box-shadow: 0 0px #000000;
+  transform: translateY(4px);
+}
+
+.coffee{
+    background-color: #1d70ec;
+    min-width: 100px;
+    max-width: 120px;
+    padding: 10px;
+    font-size: 17px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 19px;
+}
+.coffee:hover {
+    background-color: #2f59d6
+}
+.coffee:active {
+    background-color: #12366c;
+    box-shadow: 0 0px #000000;
+    transform: translateY(4px);
+}
+
+.home {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 150px 0% 0% 0%;
+    /*background-color: #ed1414;*/
+    display: flex;
+    
+}
+.aboutContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 100px; /* Adjust padding to center content vertically */
+    padding-bottom: 50px;
+}
+.welcomeSpanner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.band {
+    width: 700px; /* Adjust the width of the content */
+    margin: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #1c1c1f; /* Slightly lighter background for contrast */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.band h2 {
+    font-size: 32px; /* Adjust the font size */
+    font-weight: bold;
+}
+
+.band p {
+    font-size: 18px; /* Adjust the font size */
+    line-height: 1.7; /* Improve readability */
+
+}
+
+.instructionsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Distribute space evenly */
+    width: 70%;
+
+}
+
+.instructionsBox p {
+    width: 30%; /* Each column takes 30% of the width */
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #1c1c1f; /* Slightly lighter background for contrast */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.bigButton{
+    max-width: 300px;
+    padding: 20px;
+    font-size: 18px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.433);
+}
+.call2Action{
+    background-color: #185dc3;
+    max-width: 300px;
+    padding: 25px;
+    font-size: 32px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 32px;
+}
+.call2Action:hover {
+    background-color: #3e65c8
+}
+.call2Action:active {
+    background-color: #15306b;
+    box-shadow: 0 0px #000000;
+    transform: translateY(4px);
+}
+
+.controls {
+    background-color: rgb(63, 63, 77);
+    position: fixed;
+    bottom: 20%;
+    right: 2%;
+    z-index: 999;
+    
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Align items to the right */
+
+    /* background-color: rgb(186, 118, 118); Add white background */
+    padding: 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.405); /* Optional: Add a subtle shadow */
+}
+
+.UIcontainer1 {
+
+    position: relative;
+    margin: 10 auto;
+    width: 1182px; /* Adjust as needed */
+    height: 717px; /* Adjust as needed */
+}
+.editorPage{
+    height: 200%;
+    width: 100%;
+}
+.UIcontainer2 {
+    position: relative;
+    margin: 0 auto;
+    width: 1177px; /* Adjust as needed */
+    height: 662px; /* Adjust as needed */
+}
+
+#tieButtonToUI{
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tieMessageToUI{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

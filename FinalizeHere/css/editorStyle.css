@@ -1,0 +1,824 @@
+.colorPickStyle {
+    background: #ffffff00;
+    border: 0px;
+    scale: 1.8;
+}
+.svg-layer path:hover,
+.svg-layer rect:hover,
+.svg-layer circle:hover,
+.svg-layer ellipse:hover,
+.svg-layer line:hover,
+.svg-layer polyline:hover,
+.svg-layer polygon:hover {
+    stroke: rgb(0, 255, 255);
+    stroke-width: 4px; /* Adjust stroke width as needed */
+    stroke-dasharray: 2; /* Optional: Add dashed outline */
+}
+.svg-layer {
+    position: absolute;
+    pointer-events: none;
+}
+.svg-child {
+    pointer-events: auto;
+}
+#desktop {
+    top: 0px;
+    left: 0px;
+    z-index: 1; /* Lower number is under, 
+                Higher is ontop */
+    
+}
+#surfaceBackground {
+    top: 48px;
+    left: 7.5px;
+    z-index: 2; 
+    
+}
+#retroDisplayBackground {
+    top: 548.5px;
+    left: 230px;
+    z-index: 3; 
+    
+}
+#retroDisplayBackgroundLine {
+    top: 548.5px;
+    left: 230px;
+    z-index: 4; 
+    
+}
+#browserBar {
+    top: 49px;
+    left: 7.5px;
+    z-index: 3; 
+    
+}
+#browserBarOverlayHintTextColor {
+    top: 54px;
+    left: 46.85px;
+    z-index: 4; 
+    
+}
+#detailViewBackground {
+    top: 354.94px;
+    left: 412.68px;
+    z-index: 3; 
+    
+}
+#surfaceHighlight {
+    top: 99.03px;
+    left: 7.49px;
+    z-index: 3; 
+    
+}
+#controlTextBack {
+    top: 115.44px;
+    left: 1078.69px;
+    z-index: 3; 
+    
+}
+#chosenRecord {
+    top: 190.08px;
+    left: 1140.21px;
+    z-index: 3; 
+    
+}
+#chosenDefault {
+    top: 22.75px;
+    left: 11.18px;
+    z-index: 3; 
+    
+}
+#viewCheckControlEnabledOn {
+    top: 577.22px;
+    left: 10.77px;
+    z-index: 3; 
+    
+}
+#viewCheckControlEnabledOff {
+    top: 549.33px;
+    left: 10.77px;
+    z-index: 3; 
+    
+}
+#retroDisplayForeground2 {
+    top: 627.25px;
+    left: 306.05px;
+    z-index: 5; 
+    
+}
+#deactivatedPotiNeedle {
+    top: 571.07px;
+    left: 869.13px;
+    z-index: 3; 
+    
+}
+#rangeDisabled {
+    top: 571.07px;
+    left: 860.11px;
+    z-index: 3; 
+    
+}
+#deactivatedPoti {
+    top: 571.48px;
+    left: 869.95px;
+    z-index: 3; 
+    
+}
+#poti {
+    top: 666.01px;
+    left: 357.11px;
+    z-index: 3; 
+    
+}
+#rangeDefault {
+    top: 666.01px;
+    left: 310.51px;
+    z-index: 3; 
+    
+}
+#potiNeedle {
+    top: 669.38px;
+    left: 317.12px;
+    z-index: 4; 
+    
+}
+#scaleAwareness {
+    top: 22.75px;
+    left: 292.1px;
+    z-index: 2; 
+    
+}
+#transportOffBackground {
+    top: 22.75px;
+    left: 44.4px;
+    z-index: 2; 
+    
+}
+#transportOffForeground {
+    top: 26px;
+    left: 81px;
+    z-index: 3; 
+    
+}
+#transportOffDisabledForeground {
+    top: 27px;
+    left: 48px;
+    z-index: 3; 
+    
+}
+#filledDrumRackPad {
+    top: 583.78px;
+    left: 25.53px;
+    z-index: 3; 
+    
+}
+#controlOnForeground {
+    top: 26px;
+    left: 56px;
+    z-index: 4; 
+    
+}
+#viewControlOff {
+    top: 24.39px;
+    left: 1142.67px;
+    z-index: 2; 
+}
+#viewControlOn {
+    top: 24.39px;
+    left: 10px;
+    z-index: 2; 
+}
+#standbySelectionBackground {
+    top: 239.7px;
+    left: 7px;
+    z-index: 3; 
+}
+#controlBackground {
+    top: 101.5px;
+    left: 16px;
+    z-index: 3; 
+}
+#browserTagBackground {
+    top: 101.5px;
+    left: 149.39px;
+    z-index: 3; 
+}
+#controlOffForeground {
+    top: 24px;
+    left: 13.23px;
+    z-index: 4; 
+}
+#standbySelectionForeground {
+    top: 244px;
+    left: 27.58px;
+    z-index: 4; 
+}
+#controlOffDisabled {
+    top: 55px;
+    left: 30px;
+    z-index: 3; 
+}
+#arrangerGridTiles {
+    top: 80.58px;
+    left: 303.59px;
+    z-index: 3; 
+}
+#selectionBackground {
+    top: 99px;
+    left: 303.59px;
+    z-index: 3; 
+}
+#chosenAlternative {
+    top: 588px;
+    left: 918px;
+    z-index: 4; 
+}
+#searchIndication {
+    top: 200.74px;
+    left: 145px;
+    z-index: 4; 
+}
+#controlContrastFrame {
+    top: 100.67px;
+    left: 15.69px;
+    z-index: 5; 
+}
+#selectionForeground {
+    top: 150px;
+    left: 148.48px;
+    z-index: 5; 
+}
+#expressionLaneHeaderHighlight {
+    top: 480.43px;
+    left: 288.82px;
+    z-index: 3; 
+}
+#treeRowCategoryForeground {
+    top: 72.5px;
+    left: 12px;
+    z-index: 3; 
+}
+#treeColumnHeadBackground {
+    top: 216.32px;
+    left: 145.29px;
+    z-index: 3; 
+}
+#treeColumnHeadControl {
+    top: 219.6px;
+    left: 276.93px;
+    z-index: 4; 
+}
+#treeColumnHeadForeground {
+    top: 221.37px;
+    left: 148.49px;
+    z-index: 4; 
+}
+#chosenPreListen {
+    top: 304px;
+    left: 1119.71px;
+    z-index: 4; 
+}
+#rangeEditField {
+    top: 116px;
+    left: 1078.69px;
+    z-index: 4; 
+}
+#gridLabel {
+    top: 71.21px;
+    left: 304px;
+    z-index: 4; 
+}
+#gridLineBase {
+    top: 79px;
+    left: 326px;
+    z-index: 4; 
+}
+#pianoKeySeparator {
+    top: 421.38px;
+    left: 391.76px;
+    z-index: 3; 
+}
+#pianoWhiteKey {
+    top: 402.51px;
+    left: 391.76px;
+    z-index: 3; 
+}
+#pianoBlackKey {
+    top: 461.57px;
+    left: 391.76px;
+    z-index: 3; 
+}
+#detailGridTiles {
+    top: 355px;
+    left: 413.5px;
+    z-index: 4; 
+}
+#surfaceArea {
+    top: 49px;
+    left: 8px;
+    z-index: 5; 
+}
+#midiEditorBackgroundWhiteKeySeparator {
+    top: 421.38px;
+    left: 413.5px;
+    z-index: 5; 
+}
+#midiEditorBlackKeyBackground {
+    top: 461.57px;
+    left: 413.5px;
+    z-index: 5; 
+}
+#drumRackScroller2 {
+    top: 563px;
+    left: 25.53px;
+    z-index: 3; 
+}
+#drumRackScroller1 {
+    top: 551px;
+    left: 25.53px;
+    z-index: 3; 
+}
+#waveformColor {
+    top: 115.44px;
+    left: 303.59px;
+    z-index: 5; 
+}
+#controlForeground {
+    top: 25px;
+    left: 13.23px;
+    z-index: 4; 
+}
+#controlContrastTransport {
+    top: 22.75px;
+    left: 168.25px;
+    z-index: 3; 
+}
+#mainViewFocusIndicator {
+    top: 46.13px;
+    left: 301.13px;
+    z-index: 4; 
+}
+#retroDisplayForegroundDisabled {
+    top: 566.97px;
+    left: 233.46px;
+    z-index: 3; 
+}
+#controlFillHandle {
+    top: 79.35px;
+    left: 303.59px;
+    z-index: 4; 
+}
+#loopColor {
+    top: 78.94px;
+    left: 304px;
+    z-index: 6; 
+}
+#chosenAlert {
+    top: 693.69px;
+    left: 34.96px;
+    z-index: 2; 
+}
+#retroDisplayForeground {
+    top: 551.59px;
+    left: 269.75px;
+    z-index: 4; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#alphaScreenshot {
+    top: 0px;
+    left: 0px;
+    z-index: 15;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#ArrangerGridTiles2 {
+    top: 50.48px;
+    left: 223.32px;
+    z-index: 5;
+}
+
+#BipolReset2 {
+    top: 149.16px;
+    left: 875.25px;
+    z-index: 3;
+}
+
+#BrowserBar2 {
+    top: 26.66px;
+    left: 4.76px;
+    z-index: 2;
+}
+
+#BrowserBarOverlayHintTextColor2 {
+    top: 29.59px;
+    left: 32.35px;
+    z-index: 3;
+}
+
+#BrowserDisabledItem2 {
+    top: 186.3px;
+    left: 8.11px;
+    z-index: 3;
+}
+
+#BrowserTagBackground2 {
+    top: 75.55px;
+    left: 104.64px;
+    z-index: 3;
+}
+
+#ChosenDefault2 {
+    top: 8.69px;
+    left: 452.74px;
+    z-index: 3;
+}
+
+#ChosenPreListen2 {
+    top: 166px;
+    left: 1130.96px;
+    z-index: 4;
+}
+
+#ControlBackground2 {
+    top: 63.85px;
+    left: 489.11px;
+    z-index: 4;
+}
+
+#ControlContrastTransport2 {
+    top: 8.69px;
+    left: 154.79px;
+    z-index: 2;
+}
+
+#ControlDisabled2 {
+    top: 170.95px;
+    left: 253.41px;
+    z-index: 3;
+}
+
+#ControlFillHandle2 {
+    top: 48.39px;
+    left: 223.32px;
+    z-index: 3;
+}
+
+#ControlForeground2 {
+    top: 9.11px;
+    left: 8.23px;
+    z-index: 5;
+}
+
+#ControlOffDisabledForeground2 {
+    top: 32.4px;
+    left: 20.71px;
+    z-index: 4;
+}
+
+#ControlOffForeground2 {
+    top: 9.11px;
+    left: 8.94px;
+    z-index: 6;
+}
+
+#ControlOnDisabledForeground2 {
+    top: 233px;
+    left: 254px;
+    z-index: 4;
+}
+
+#ControlOnForeground2 {
+    top: 11px;
+    left: 39.51px;
+    z-index: 5;
+}
+
+#ControlSelectionFrame2 {
+    top: 65.53px;
+    left: 818.41px;
+    z-index: 3;
+}
+
+#ControlTextBack2 {
+    top: 73.64px;
+    left: 1102.27px;
+    z-index: 3;
+}
+
+#DeactivatedClipHeader2 {
+    top: 63.02px;
+    left: 378.36px;
+    z-index: 5;
+}
+
+#Desktop2 {
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+#DetailViewBackground2 {
+    top: 385.63px;
+    left: 202.85px;
+    z-index: 3;
+}
+
+#DimmedWaveformColor2 {
+    top: 71.38px;
+    left: 223.32px;
+    z-index: 6;
+}
+
+#DrumRackScroller12 {
+    top: 545.42px;
+    left: 17.54px;
+    z-index: 3;
+}
+
+#DrumRackScroller22 {
+    top: 553.98px;
+    left: 17.54px;
+    z-index: 3;
+}
+
+#FilledDrumRackPad2 {
+    top: 568.39px;
+    left: 17.54px;
+    z-index: 3;
+}
+
+#GridLineBase2 {
+    top: 48.81px;
+    left: 223.32px;
+    z-index: 4;
+}
+
+#ControlFillHandle2 {
+    top: 48.02px;
+    left: 222.91px;
+    z-index: 7;
+}
+
+#LoopColor2 {
+    top: 48.02px;
+    left: 222.91px;
+    z-index: 8;
+}
+
+#MutedAuditionClip2 {
+    top: 62.18px;
+    left: 223px;
+    z-index: 5;
+}
+
+#Poti2 {
+    top: 617.15px;
+    left: 496.21px;
+    z-index: 3;
+}
+
+#PotiNeedle2 {
+    top: 620.44px;
+    left: 455.14px;
+    z-index: 5;
+}
+
+#RangeDefault2 {
+    top: 622.11px;
+    left: 451.5px;
+    z-index: 4;
+}
+
+#RangeEditField2 {
+    top: 73.64px;
+    left: 1102.16px;
+    z-index: 4;
+}
+
+#RangeEditField32 {
+    top: 611.72px;
+    left: 369.59px;
+    z-index: 3;
+}
+
+#Rectangle3572 {
+    top: 82.66px;
+    left: 223px;
+    z-index: 5;
+}
+
+#RetroDisplayBackground2 {
+    top: 268.33px;
+    left: 161px;
+    z-index: 3;
+}
+
+#RetroDisplayForegroundDos {
+    top: 553.63px;
+    left: 162.31px;
+    z-index: 4;
+}
+
+#RetroDisplayGreen2 {
+    top: 551px;
+    left: 551px;
+    z-index: 4;
+}
+
+#RetroDisplayHandle12 {
+    top: 573.27px;
+    left: 767.43px;
+    z-index: 5;
+}
+
+#RetroDisplayRed2 {
+    top: 548.2px;
+    left: 548.45px;
+    z-index: 4;
+}
+
+#ScaleAwareness2 {
+    top: 8.69px;
+    left: 242.13px;
+    z-index: 2;
+}
+
+#ScrollbarInnerHandle2 {
+    top: 53.82px;
+    left: 211.21px;
+    z-index: 3;
+}
+
+#ScrollbarInnerHandleHover2 {
+    top: 146.18px;
+    left: 95.03px;
+    z-index: 4;
+}
+
+#ScrollbarInnerTrackHover2 {
+    top: 42.54px;
+    left: 95.03px;
+    z-index: 3;
+}
+
+#SurfaceArea2 {
+    top: 28.56px;
+    left: 6.02px;
+    z-index: 7;
+}
+
+#SurfaceBackground2 {
+    top: 25.66px;
+    left: 4.76px;
+    z-index: 2;
+}
+
+#TakeLaneTrackHighlighted2 {
+    top: 83.49px;
+    left: 359.14px;
+    z-index: 3;
+}
+
+#TakeLaneTrackNotHighlighted2 {
+    top: 144.51px;
+    left: 359.14px;
+    z-index: 3;
+}
+
+#TextDisabled2 {
+    top: 79.31px;
+    left: 820.32px;
+    z-index: 3;
+}
+
+#ThresholdLineColor2 {
+    top: 587px;
+    left: 491px;
+    z-index: 4;
+}
+
+#TransportOffBackground2 {
+    top: 8.69px;
+    left: 57.29px;
+    z-index: 2;
+}
+
+#TransportOffDisabledForeground2 {
+    top: 12px;
+    left: 59px;
+    z-index: 3;
+}
+
+#TransportOffForeground2 {
+    top: 11px;
+    left: 94.19px;
+    z-index: 2;
+}
+
+#TreeColumnHeadControl2 {
+    top: 206.61px;
+    left: 200.82px;
+    z-index: 4;
+}
+
+#TreeColumnHeadFocus2 {
+    top: 216.8px;
+    left: 101.3px;
+    z-index: 3;
+}
+
+#TreeColumnHeadForeground2 {
+    top: 209px;
+    left: 104.31px;
+    z-index: 4;
+}
+
+#TreeColumnHeadSelected2 {
+    top: 205.1px;
+    left: 101.3px;
+    z-index: 3;
+}
+
+#TreeRowCategoryForeground2 {
+    top: 164.53px;
+    left: 8.56px;
+    z-index: 2;
+}
+
+#ViewCheckControlEnabledOn2 {
+    top: 563.83px;
+    left: 7.27px;
+    z-index: 3;
+}
+
+#ViewCheckControlEnabledOff2 {
+    top: 544.44px;
+    left: 7.27px;
+    z-index: 3;
+}
+
+#ViewControlOff2 {
+    top: 9.53px;
+    left: 1149.51px;
+    z-index: 2;
+}
+
+#ViewControlOn2 {
+    top: 9.53px;
+    left: 6.85px;
+    z-index: 3;
+}
+
+#WarperTimeBarMarkerBackground2 {
+    top: 409.04px;
+    left: 202.85px;
+    z-index: 3;
+}
+
+#WaveformColor2 {
+    top: 82.66px;
+    left: 202.48px;
+    z-index: 6;
+}
+#AutomationColor2 {
+    top: 67px;
+    left: 223.73px;
+    z-index: 7;
+}
+
+#Track2 {
+    top: 61.76px;
+    left: 1043.24px;
+    z-index: 3;
+}
+
+#TrackDark2 {
+    top: 82.24px;
+    left: 1043.24px;
+    z-index: 3;
+}
+
+
+/*
+# {
+    top: px;
+    left: px;
+    z-index: ; 
+}
+
+
+*/
