@@ -283,7 +283,7 @@
     left: 1078.69px;
     z-index: 4; 
 }
-#gridLabel {
+#arrangementRulerMarkings {
     top: 71.21px;
     left: 304px;
     z-index: 4; 
@@ -424,7 +424,7 @@
 }
 
 #BrowserBarOverlayHintTextColor2 {
-    top: 29.59px;
+    top: 31px;
     left: 32.35px;
     z-index: 3;
 }
@@ -484,7 +484,7 @@
 }
 
 #ControlOffDisabledForeground2 {
-    top: 32.4px;
+    top: 31.13px;
     left: 20.71px;
     z-index: 4;
 }
@@ -585,6 +585,12 @@
     z-index: 5;
 }
 
+#MeterBackground2 {
+    top: 268px;
+    left: 255.5px;
+    z-index: 3;
+}
+
 #Poti2 {
     top: 617.15px;
     left: 496.21px;
@@ -624,7 +630,7 @@
 #RetroDisplayBackground2 {
     top: 268.33px;
     left: 161px;
-    z-index: 3;
+    z-index: 4;
 }
 
 #RetroDisplayForegroundDos {
